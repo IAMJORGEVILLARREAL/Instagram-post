@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background: black;
+}
+
+.Post {
+    width: fit-content;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Post-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-pic {
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px 0 3px 8px;
+}
+
+.User-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.User-name p {
+    margin-bottom: 2px;
+}
+
+.Options {
+    margin-left: 49%;
+    font-size: 23px;
+    color: black;
+}
+
+.Post-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.Post-img img{
+    width: 100%;
+}
+
+/* Style the post body */
+.Post-body {
+    padding: 10px;
+    
+}
+
+.Interactions {
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.Bookmark{
+    margin-left: 63%;
+}
+
+.Like, .Comment, .Send{
+    padding-right: 7%;
+}
+
+.interactions div {
+    margin-right: 15px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.Post-body p:last-child {
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+    padding-top: 3%;
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+
+
